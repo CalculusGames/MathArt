@@ -2,3 +2,5 @@
 .vscode/
 .gradle/
 build/
+.kotlin/
+kotlin-js-store/
