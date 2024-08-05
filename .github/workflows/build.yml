@@ -16,7 +16,7 @@ jobs:
     name: Gradle Setup
     steps:
       - uses: actions/checkout@v4
-      - uses: gradle/actions/wrapper-validation@v3
+      - uses: gradle/actions/wrapper-validation@v4
       - name: Change Permissions
         run: chmod +x ./gradlew
       - name: Gradle Information
